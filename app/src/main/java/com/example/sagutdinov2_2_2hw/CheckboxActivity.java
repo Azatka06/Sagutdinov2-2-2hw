@@ -23,7 +23,7 @@ public class CheckboxActivity extends AppCompatActivity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_main);
+        setContentView(R.layout.activity_checkbox);
         initViews();
         mBtnOk.setOnClickListener(new View.OnClickListener() {
             @Override

@@ -18,7 +18,7 @@ public class NotesActivity extends AppCompatActivity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_main);
+        setContentView(R.layout.activity_notes);
         initViews();
         getDateFromSharedPref();
 
@@ -48,12 +48,7 @@ public class NotesActivity extends AppCompatActivity {
 
         myNoteSharedPref = getSharedPreferences("MyNote", MODE_PRIVATE);
 
-        mBtnSaveNote.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View view) {
 
-            }
-        });
     }
 }
 
